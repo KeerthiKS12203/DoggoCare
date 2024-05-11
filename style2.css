@@ -1,0 +1,84 @@
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    height: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #e5c6c6;
+  }
+  
+  header {
+    background-color: #e5c6c6;
+    color:black;
+    padding: 10px 0;
+
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+      color:black;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  main {
+    background-image:url('https://th.bing.com/th/id/OIP.BgkpdrC3KyOkytuuvDaj0QHaFj?pid=ImgDet&rs=1');
+    background-size: cover;
+    background-position: center;
+    height: 80px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 40px;
+  }
+  
+  h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    height: 50px;
+    font-size: 40px;
+    height:page-height;
+    text-decoration-color: #b66161;
+   
+  }
+  footer{
+    background-image:url('https://doglover.in/wp-content/uploads/2018/01/Footer-Banner.png');
+  }
+
+  .logout-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1653b4; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px; /* Adjust top position */
+    right: 10px; /* Adjust right position */
+}
+
+.logout-btn:hover {
+    background-color: #164da5; 
+}

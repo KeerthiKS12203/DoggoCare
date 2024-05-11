@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rescue Dogs - Dog Pet Management App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .rescue-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .rescue-box img {
+      max-width: 500px;
+      border-radius: 5px;
+    }
+    .rescue-details {
+      flex: 1;
+      margin-left: 1rem;
+    }
+    .rescue-title {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .rescue-description {
+      line-height: 1.6;
+    }
+    .cta-box {
+      text-align: center;
+      padding: 2rem;
+      background-color: #7dbde2;
+      border: 2px dashed #ccc;
+      border-radius: 10px;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 0.5rem 1.5rem;
+      background-color: #250c47;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rescue Dogs</h1>
+  </header>
+  <div class="container">
+    
+    <div class="rescue-box">
+      
+      <div class="rescue-details">
+        <h2 class="rescue-title">Rescued Dog:Sasha</h2>
+        <p class="rescue-description">
+          Age: 2 years<br>
+          Breed: Labrador Retriever<br>
+          Gender: Female<br>
+          Description: Sasha was left alone at an abandoned house from where he was rescued by a kind passer by
+        </p>
+      </div>
+      <img src="SashaRescueDog.jpg" height="250" alt="Rescued Dog 1">
+    </div>
+    <div class="rescue-box">
+      <img src="BrunoRescueDog.jfif" height="250" alt="Rescued Dog 2">
+      <div class="rescue-details">
+        <h2 class="rescue-title">Rescued Dog:Bruno</h2>
+        <p class="rescue-description">
+          Age: 3 years<br>
+          Breed: Indian Pariah<br>
+          Gender: Male<br>
+          Description: Bruno was found injured near a highway and was rescued by a kind truck driver
+        </p>
+      </div>
+    </div>
+    <div class="cta-box">
+      <h2>Interested in Rescuing a Dog?</h2>
+      <a class="cta-button" href="rescue_form.html">Click here to express your interest</a>
+    </div>
+  </div>
+</body>
+</html>

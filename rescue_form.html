@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Input Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1.5rem;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 0.5rem;
+    }
+    th {
+      background-color: #f8f8f8;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    select {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button[type="submit"] {
+      padding: 0.5rem 1rem;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button[type="submit"]:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="text-align: center;"> Rescue Form </h1>
+    <h2>Habitue Details</h2>
+    <form action="rescue_2.php" method="post">
+      <table>
+        <tr>
+          <th>Name</th>
+          <td><input type="text" name="habitueName"></td>
+        </tr>
+        <tr>
+          <th>Phone Number</th>
+          <td><input type="text" name="habituePhone"></td>
+        </tr>
+        <tr>
+          <th>Address</th>
+          <td><input type="text" name="habitueAddress"></td>
+        </tr>
+      </table>
+
+    <h2>Pet Details</h2>
+
+      <table>
+        <tr>
+          <th>Breed</th>
+          <td>
+            <select name="breed">
+              <option value="breed" size="15">Breed</option>
+              <option value="unknown">Unkown</option>
+              <option value="Indian Pariah Dog">Indian Pariah Dog</option>
+              <option value="Indian Spitz">Indian Spitz</option>
+              <option value="Golden Retriever">Golden Retriever</option>
+              <option value="Labrador">Labrador</option>
+              <option value="Combai">Combai</option>
+              <option value="Chippiparai">Chippiparai(Kanni)</option>
+              <option value="Rajapalyam">Rajapalyam</option>
+              <option value="Rampur Hound">Rampur Hound</option>
+              <option value="Rottweiler">Rottweiler</option>
+              <option value="German Shepherd">German Shepherd</option>
+              <option value="Beagle">Beagle</option>
+              <option value="Pug">Pug</option>
+              <option value="Pomeranian">Pomeranian</option>
+              <option value="Doberman">Doberman</option>
+              </select>     
+          </td>
+        </tr>
+        <tr>
+          <th>Gender</th>
+          <td>
+            <select name="petGender">
+              <option value="male" name="male">Male</option>
+              <option value="female" name="female">Female</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Color</th>
+          <td><input type="text" name="petColor"></td>
+        </tr>
+        <tr>
+          <th>Location</th>
+          <td><input type="text" name="petLocation"></td>
+        </tr>
+        <tr>
+          <th>Description</th>
+          <td><input type="text" name="petDescription"></td>
+        </tr>
+      </table>
+      <button type="submit">Submit Pet Details</button>
+    </form>
+  </div>
+</body>
+</html>
