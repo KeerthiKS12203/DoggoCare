@@ -13,6 +13,7 @@ Steps to deploy this project on your system:
 6. The homepage of the website is homePage.html. So start by running homePage.html.
 
 This project contains the following functionalities:
+  
   User:
 - Reporting a rescue dog by a rescuer.
 - Adoption of a dog in the shelter cum rescue center.
